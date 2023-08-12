@@ -1,0 +1,208 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease;
+}
+
+header{
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   
+   
+   
+}
+
+
+.Icons{
+    display: flex;
+    gap: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+hr{
+    text-shadow: black ;
+   
+}
+
+.Flor{
+    position: absolute;
+    left: 0;
+    padding-top: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+.info{
+    border: 1px;
+    width: 28pc;
+    font-size: 2pc;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+h2{
+    color: rgb(20, 20, 98);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Center{
+    display: flex;
+    justify-content: center;
+    color: rgb(43, 43, 116);
+    
+}
+.Principal{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.Principal .Center{
+    display: flex;
+    justify-content: end;
+    
+    }
+
+    .Centro{
+    display: flex;
+   justify-content:center;
+   align-items: center;
+   padding: 100px;
+   gap: 50px;
+   font-size: medium;
+   color: rgb(43, 43, 116);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+
+}
+.Apply{
+    border-bottom: 0.5pc solid rgb(14, 15, 110)
+}
+.Dona{
+    border-bottom: 0.5pc solid  rgb(255, 251, 0);
+}
+.Donar{
+    display: flex;
+    gap: 20px;
+    
+}
+.Historia{
+    border-bottom: 0.5pc solid rgb(134, 39, 39) ;
+    
+
+    
+}
+.Historia:hover{
+    border-bottom: 0.9pc solid rgb(134, 39, 39);
+    
+}
+
+.Foco{
+    border-bottom: 0.5pc solid rgb(255, 251, 0);
+
+}
+.Foco:hover{
+    border-bottom: 0.9pc solid rgb(255, 251, 0);
+}
+
+.Noti{
+    border-bottom: 0.5pc solid rgb(14, 15, 110);  
+}
+.Noti:hover{
+    border-bottom: 0.9pc solid rgb(14, 15, 110);
+}
+
+.Tarjetas{
+    border: px solid black;
+    width: 78pc;
+    height: 50pc;
+    margin: 30px;
+    padding: 1pc;
+   
+      
+  
+ 
+  
+  
+    
+}
+.cartas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.carta1{
+    border: px solid rgb(207, 26, 26);
+    width: 30pc;
+    height: 20pc;
+    margin: 30px;
+    display: grid;
+    background-color: rgb(172, 241, 115);
+    
+    
+        
+}
+
+.carta2{
+    border: px solid rgb(207, 26, 26);
+    width: 30pc;
+    height: 20pc;
+    margin: 30px;
+}
+.carta3{
+    border: 1px solid rgb(207, 26, 26);
+    width: 30pc;
+    height: 20pc;
+    margin: 30px;
+}
+
+.carta4{
+    border: 1px solid rgb(207, 26, 26);
+    width: 30pc;
+    height: 20pc;
+    margin: 30px;
+}
+img{
+    object-fit: cover;
+    width:100%;
+    height:37%;
+    position: relative;
+
+    
+    
+}
+
+.img-circula{
+    border: 7px solid rgb(17, 143, 69);
+     border-radius: 50%;
+     position: relative;
+     z-index:2;
+     width:150px;
+      height:150px;
+      top: -200px;
+      left: 14%;
+      
+      
+
+     
+}
+
+p{
+   
+    
+    
+    
+}
